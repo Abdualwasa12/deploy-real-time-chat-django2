@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%v$gh67imza=0$i%pky!jxpk*@%t+x-w$lw5lmwbvj)+#p=r#g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['vercel.app']
+ALLOWED_HOSTS = ['vercel.app' ,'127.0.0.1','localhost']
 
 AUTH_USER_MODEL = 'account.User'
 
@@ -95,9 +95,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'JXNkK7VuFALt0Re6DAEN',
-        'HOST': 'containers-us-west-173.railway.app',
-        'PORT': '6809',
+        'PASSWORD': 'qdedPsuP7nuMu1oEBIsJ',
+        'HOST': 'containers-us-west-45.railway.app',
+        'PORT': '8006',
     }
 }
 
